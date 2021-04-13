@@ -1,0 +1,48 @@
+.promotion__card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.promotion__image {
+  background-image: linear-gradient(to right, #879221, #6516af);
+  border-radius: 50%;
+  height: 60px;
+  padding: .5rem;
+  width: 60px;
+}
+
+.promotion__title {
+  margin: 0;
+}
+
+.promotion__price {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: .5rem 0;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+.promotion__list--description {
+  list-style: none;
+}
+
+.promotion__description {
+  align-items: center;
+  color: #777;
+  display: flex;
+  font-size: .9rem;
+  justify-content: center;
+}
+
+.promotion__description::before {
+  background-color: #000;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  flex-shrink: 0;
+  height: 5px;
+  margin-right: .3rem;
+  width: 5px;
+}
