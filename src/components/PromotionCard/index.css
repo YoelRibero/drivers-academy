@@ -5,8 +5,9 @@
 }
 
 .promotion__image {
-  background-image: linear-gradient(to right, #879221, #6516af);
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   border-radius: 50%;
+  fill: var(--icon-color);
   height: 60px;
   padding: .5rem;
   width: 60px;
@@ -36,7 +37,7 @@
   justify-content: center;
 }
 
-.promotion__description::before {
+/* .promotion__description::before {
   background-color: #000;
   border-radius: 50%;
   content: '';
@@ -45,4 +46,8 @@
   height: 5px;
   margin-right: .3rem;
   width: 5px;
-}
+} */
+
+/* @media screen and (min-widht: 768px) {
+
+} */
