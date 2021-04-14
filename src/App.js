@@ -1,8 +1,14 @@
 import React from 'react'
 
-import { ListOfPromotions } from './components/ListOfPromotions'
 import './index.css'
+import { ListOfPromotions } from './components/ListOfPromotions'
+import { Footer } from './components/Footer'
+import { WhatsappButton } from './components/WhatsappButton'
 
 export const App = () => (
-  <ListOfPromotions />
+  <>
+    <ListOfPromotions />
+    <Footer />
+    <WhatsappButton />
+  </>
 )

@@ -2,9 +2,13 @@
     --body-background: #d9d9d9;
     --font-color: #333;
     --header-color: #ddd;
-    --primary-color: tomato;
-    --secondary-color: rgb(219, 219, 53);
-    --muted-text: #9698a6;
+    --footer-background: #333;
+    --footer-color: #fff;
+    --primary-color: #A01127;
+    --secondary-color: #EAC024;
+    --muted-text: #777;
+    --icon-color: #fff;
+    --wpp-color: #00e676;
   }
   
   /* @media (prefers-color-scheme: dark) {
