@@ -1,3 +1,7 @@
+.menu__list {
+  list-style: none;
+}
+
 .menu__action {
   display: block;
   padding: .5rem;

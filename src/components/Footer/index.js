@@ -33,7 +33,7 @@ export const Footer = () => (
       <Menu />
     </section>
     <section className='footer__copyright'>
-      <small class='muted'>© 2021 Libra - Academia de choferes</small>
+      <small className='muted'>© 2021 Libra - Academia de choferes</small>
     </section>
   </footer>
 )
