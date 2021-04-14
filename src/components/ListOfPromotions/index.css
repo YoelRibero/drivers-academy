@@ -1,3 +1,16 @@
 .promotions {
   background-color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+  .promotion__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .promotion__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
