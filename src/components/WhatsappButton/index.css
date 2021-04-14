@@ -1,0 +1,27 @@
+.whatsapp__button {
+  bottom: 2rem;
+  position: fixed;
+  right: 2rem;
+}
+
+.whatsapp__button svg {
+  background-color: var(--wpp-color);
+  border-radius: 50%;
+  fill: var(--icon-color);
+  height: 30px;
+  overflow: visible;
+  padding: .7rem;
+  width: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .whatsapp__button {
+    bottom: 4rem;
+    right: 4rem
+  }
+  .whatsapp__button svg {
+    height: 40px;
+    padding: 1rem;
+    width: 40px;
+  }
+}
