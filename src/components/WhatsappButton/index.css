@@ -1,7 +1,8 @@
 .whatsapp__button {
-  bottom: 2rem;
+  bottom: 1rem;
   position: fixed;
-  right: 2rem;
+  right: 1rem;
+  z-index: 2;
 }
 
 .whatsapp__button svg {

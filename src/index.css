@@ -1,7 +1,7 @@
 :root {
     --body-background: #d9d9d9;
     --font-color: #333;
-    --header-color: #ddd;
+    --header-background: #444;
     --footer-background: #333;
     --footer-color: #fff;
     --primary-color: #A01127;
@@ -55,6 +55,16 @@
   
   .muted {
     color: var(--muted-text);
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
   }
   
   .wrapper {
