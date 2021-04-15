@@ -73,11 +73,6 @@
       "name": "Social Network Instagram",
       "icon": "iconIt",
       "path": "https://instagram.com"
-    },
-    {
-      "name": "Social Network Youtube",
-      "icon": "iconYt",
-      "path": "https://youtube.com"
     }
   ]
 }

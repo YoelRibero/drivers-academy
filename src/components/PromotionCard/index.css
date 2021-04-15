@@ -1,11 +1,14 @@
 .promotion__card {
+  border: 1px solid #000; /* Negro o rojo logo */
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 20%);
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
 }
 
 .promotion__image {
-  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  background-color: var(--primary-color);
   border-radius: 50%;
   fill: var(--icon-color);
   height: 60px;
@@ -48,6 +51,8 @@
   width: 5px;
 } */
 
-/* @media screen and (min-widht: 768px) {
-
-} */
+@media screen and (min-width: 768px) {
+  .promotion__card {
+    margin: 0;
+  }
+}
