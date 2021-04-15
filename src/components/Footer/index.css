@@ -24,7 +24,7 @@
 .footer__social--list {
   column-gap: 1rem;
   display: grid;
-  grid-template-columns: repeat(3, 20px);
+  grid-template-columns: repeat(2, 20px);
   list-style-type: none;
   justify-content: center;
 }
@@ -33,4 +33,31 @@
   fill: var(--icon-color);
   height: 20px;
   width: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    text-align: left;
+  }
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__brand {
+    width: 30%;
+  }
+  .footer__brand .logo {
+    margin-bottom: 1rem;
+  }
+  .footer__social--list {
+    justify-content: flex-start;
+  }
+  .footer__menu .menu__list {
+    columns: 2;
+  }
+  .footer__copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+  }
 }
