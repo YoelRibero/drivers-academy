@@ -1,11 +1,13 @@
 :root {
     --body-background: #d9d9d9;
-    --font-color: #333;
-    --header-background: #444;
-    --footer-background: #333;
+    --font-color: ##444242;
+    --header-background: #444242;
+    --footer-background: #444242;
     --footer-color: #fff;
     --primary-color: #A01127;
     --secondary-color: #EAC024;
+    --white-color: #fff;
+    --black-color: #000;
     --muted-text: #777;
     --icon-color: #fff;
     --wpp-color: #00e676;
@@ -34,9 +36,10 @@
   
   h2 {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 100;
     letter-spacing: 1px;
-    margin-bottom: 1.5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
   }
   
   a {

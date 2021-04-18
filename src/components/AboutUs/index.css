@@ -1,0 +1,23 @@
+.about-us {
+  background-color: var(--white-color);
+  padding: 2rem 0;
+}
+
+.about-us__image {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-us__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us__image {
+    margin-bottom: 0;
+    order: 2;
+  }
+  .about-us__info {
+    width: 40%;
+  }
+}

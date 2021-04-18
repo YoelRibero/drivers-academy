@@ -13,7 +13,7 @@ export const Header = () => {
         <div className='wrapper'>
           <div className='header__container'>
             <section className='header__logo'>
-              <Logo />
+              <Logo type='header' />
             </section>
             <section className={`header__menu${showMenu ? ' show' : ''}`}>
               <Menu />
