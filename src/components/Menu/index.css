@@ -3,6 +3,7 @@
 }
 
 .menu__action {
+  cursor: pointer;
   display: block;
   padding: .5rem;
 }

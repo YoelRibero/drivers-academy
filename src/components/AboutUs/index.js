@@ -12,8 +12,8 @@ export const AboutUs = () => (
           <img src={carImage} alt='Car Academy Image' />
         </figure>
         <div className='about-us__info'>
-          <Title className='about-us__brief'>Hacemos la diferencia en futuros conductores</Title>
-          <p className='about-us__description muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A est culpa molestiae? Perferendis accusantium molestias reiciendis, nobis incidunt porro nihil.</p>
+          <Title className='about-us__slogan'>Hacemos la diferencia en futuros conductores</Title>
+          <p className='about-us__brief muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A est culpa molestiae? Perferendis accusantium molestias reiciendis, nobis incidunt porro nihil.</p>
         </div>
       </div>
     </div>

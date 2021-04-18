@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 import { db } from '../../utils/db'
 import './index.css'
@@ -9,7 +10,16 @@ export const Menu = () => (
       {
         db.menu.map((item, index) => (
           <li key={index} className='menu__item'>
-            <a href={item.path} className='menu__action'>{item.name}</a>
+            <Link
+              to={item.path}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className='menu__action'
+            >
+              {item.name}
+            </Link>
           </li>
         ))
       }

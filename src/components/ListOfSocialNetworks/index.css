@@ -1,0 +1,19 @@
+.social__list {
+  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 20px);
+  list-style-type: none;
+  justify-content: center;
+}
+
+.social__list svg {
+  fill: var(--icon-color);
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .social__list {
+    justify-content: flex-start;
+  }
+}

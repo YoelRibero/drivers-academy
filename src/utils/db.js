@@ -2,23 +2,23 @@ export const db = {
   menu: [
     {
       name: 'Inicio',
-      path: '/'
+      path: 'app'
     },
     {
       name: 'Nosotros',
-      path: '#about-us'
+      path: 'about-us'
     },
     {
       name: '¿Por qué elegirnos?',
-      path: '#costs'
+      path: 'costs'
     },
     {
       name: 'Requisitos para inicio de clases',
-      path: '#requirement'
+      path: 'requirement'
     },
     {
       name: 'Contacto',
-      path: '#footer'
+      path: 'footer'
     }
   ],
   promotions: [
