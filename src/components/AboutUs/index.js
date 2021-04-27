@@ -9,7 +9,7 @@ export const AboutUs = () => (
     <div className='wrapper'>
       <div className='about-us__container'>
         <figure className='about-us__image'>
-          <img src={carImage} alt='Car Academy Image' />
+          <img src={carImage} alt='Car Academy Image' loading='lazy' />
         </figure>
         <div className='about-us__info'>
           <Title className='about-us__slogan'>Hacemos la diferencia en futuros conductores</Title>

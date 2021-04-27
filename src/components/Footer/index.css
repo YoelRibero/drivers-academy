@@ -42,6 +42,15 @@
   .footer__container > section {
     margin-bottom: 0;
   }
+  .footer__menu .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .footer__menu .menu__item {
+    width: 50%;
+  }
   .footer__social-networks {
     order: 2;
   }

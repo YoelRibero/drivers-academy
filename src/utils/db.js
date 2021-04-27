@@ -2,23 +2,33 @@ export const db = {
   menu: [
     {
       name: 'Inicio',
-      path: 'app'
+      path: '/',
+      externalLink: true
     },
     {
       name: 'Nosotros',
-      path: 'about-us'
+      path: 'about-us',
+      externalLink: false
     },
     {
       name: '¿Por qué elegirnos?',
-      path: 'costs'
+      path: 'costs',
+      externalLink: false
+    },
+    {
+      name: 'Simulacro de exámen',
+      path: '/quiz',
+      externalLink: true
     },
     {
       name: 'Requisitos para inicio de clases',
-      path: 'requirement'
+      path: 'requirement',
+      externalLink: false
     },
     {
       name: 'Contacto',
-      path: 'footer'
+      path: 'footer',
+      externalLink: false
     }
   ],
   promotions: [
@@ -72,7 +82,7 @@ export const db = {
     {
       name: 'Social Network Instagram',
       icon: 'iconIt',
-      path: 'https://instagram.com'
+      path: 'https://instagram.com/academialibra'
     }
   ]
 }

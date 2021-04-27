@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link as InternalLink } from 'react-scroll'
+import { Link as ExternalLink } from 'wouter'
 
 import { db } from '../../utils/db'
 import './index.css'
@@ -10,16 +11,20 @@ export const Menu = () => (
       {
         db.menu.map((item, index) => (
           <li key={index} className='menu__item'>
-            <Link
-              to={item.path}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className='menu__action'
-            >
-              {item.name}
-            </Link>
+            {
+              item.externalLink
+                ? <ExternalLink className='menu__action' to={item.path}>{item.name}</ExternalLink>
+                : <InternalLink
+                    to={item.path}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className='menu__action'
+                  >
+                  {item.name}
+              </InternalLink>
+            }
           </li>
         ))
       }
