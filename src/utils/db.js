@@ -84,5 +84,59 @@ export const db = {
       icon: 'iconIt',
       path: 'https://instagram.com/academialibra'
     }
+  ],
+  questions: [
+    {
+      id: 1,
+      quiz: '¿Cuánto es 2 + 2?',
+      options: [
+        {
+          idOption: '1',
+          value: '1',
+          isCorrect: false
+        },
+        {
+          idOption: '2',
+          value: '2',
+          isCorrect: false
+        },
+        {
+          idOption: '3',
+          value: '3',
+          isCorrect: false
+        },
+        {
+          idOption: '4',
+          value: '4',
+          isCorrect: true
+        }
+      ]
+    },
+    {
+      id: 2,
+      quiz: '¿Cuánto es 4 + 4?',
+      options: [
+        {
+          idOption: '1-2',
+          value: '2',
+          isCorrect: false
+        },
+        {
+          idOption: '2-2',
+          value: '4',
+          isCorrect: false
+        },
+        {
+          idOption: '3-2',
+          value: '6',
+          isCorrect: false
+        },
+        {
+          idOption: '4-2',
+          value: '8',
+          isCorrect: true
+        }
+      ]
+    }
   ]
 }

@@ -9,7 +9,7 @@
 }
 
 .promotion__image {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border-radius: 50%;
   fill: var(--icon-color);
   height: 60px;
