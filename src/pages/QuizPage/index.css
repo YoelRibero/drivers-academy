@@ -6,6 +6,16 @@
   padding: 2rem;
 }
 
+.quiz__container > p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.quiz__container > p span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .quiz__form--question {
   margin-bottom: 1.5rem;
 }
@@ -76,4 +86,18 @@
 
 .quiz__form--action {
   text-align: right;
+}
+
+@media screen and (min-width: 1024px) {
+  .quiz__container {
+    padding: 2rem 3rem;
+  }
+  .quiz__form ol {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quiz__form--question {
+    margin: 0;
+  }
 }

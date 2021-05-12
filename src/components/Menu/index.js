@@ -5,7 +5,7 @@ import { Link as ExternalLink } from 'wouter'
 import { db } from '../../utils/db'
 import './index.css'
 
-export const Menu = () => (
+export const Menu = ({ handleShowMenu = null }) => (
   <nav className='menu'>
     <ul className='menu__list'>
       {
@@ -13,7 +13,7 @@ export const Menu = () => (
           <li key={index} className='menu__item'>
             {
               item.externalLink
-                ? <ExternalLink className='menu__action' to={item.path}>{item.name}</ExternalLink>
+                ? <ExternalLink onClick={() => handleShowMenu && handleShowMenu(false)} className='menu__action' to={item.path}>{item.name}</ExternalLink>
                 : <InternalLink
                     to={item.path}
                     spy={true}
@@ -21,6 +21,7 @@ export const Menu = () => (
                     offset={-70}
                     duration={500}
                     className='menu__action'
+                    onClick={() => handleShowMenu && handleShowMenu(false)}
                   >
                   {item.name}
               </InternalLink>
