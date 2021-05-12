@@ -59,3 +59,12 @@
     margin: 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .promotion__title {
+    height: 75px;
+  }
+  .promotion__subtitle {
+    height: 60px;
+  }
+}
