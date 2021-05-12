@@ -16,7 +16,7 @@ export const Header = () => {
               <Logo type='header' />
             </section>
             <section className={`header__menu${showMenu ? ' show' : ''}`}>
-              <Menu />
+              <Menu handleShowMenu={setShowMenu} />
             </section>
             <BurgerButton
               showMenu={showMenu}
