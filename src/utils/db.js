@@ -14,7 +14,7 @@ export const db = {
     },
     {
       name: '¿Por qué elegirnos?',
-      path: 'costs',
+      path: 'who-we-are',
       externalLink: false
     },
     {
@@ -24,7 +24,7 @@ export const db = {
     },
     {
       name: 'Requisitos para inicio de clases',
-      path: 'requirement',
+      path: 'requirements',
       externalLink: false
     },
     {
