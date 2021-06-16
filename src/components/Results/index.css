@@ -1,0 +1,12 @@
+.questions__results {
+  text-align: center;
+}
+
+.questions__results p {
+  font-size: 20px;
+}
+
+.questions__results p span {
+  font-size: 22px;
+  font-weight: 600;
+}

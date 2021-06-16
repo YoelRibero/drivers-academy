@@ -1,0 +1,23 @@
+.quiz__form--question {
+  margin-bottom: 1.5rem;
+}
+
+.quiz__form--question p {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.quiz__form--action {
+  text-align: right;
+}
+
+@media screen and (min-width: 1024px) {
+  .quiz__form ol {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quiz__form--question {
+    margin: 0;
+  }
+}

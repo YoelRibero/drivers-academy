@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const Question = () => (
+import './index.css'
+
+export const Question = ({ id, quiz, options, handleChange }) => (
   <li key={id} className='quiz__form--question'>
     <p>{quiz}</p>
     {
