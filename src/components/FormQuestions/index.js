@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 
-import { db } from '../../utils/db'
+import { Question } from '../Question'
+import './index.css'
 
-export const FormQuestions = () => {
-  const [questions, setQuestions] = useState(db.questions)
+export const FormQuestions = ({ questions, handleSubmit, answereQuestions, setAnswereQuestions }) => {
   const [unsortedQuestions, setUnsortedQuestions] = useState([])
-  const [answereQuestions, setAnswereQuestions] = useState([])
 
   useEffect(() => {
     setUnsortedQuestions(questions.map(question => {
@@ -37,27 +36,15 @@ export const FormQuestions = () => {
     <form onSubmit={handleSubmit} className='quiz__form'>
       <ol>
         {
-          unsortedQuestions.map(({ question: { id, quiz, options } }) => {
-            return (
-              <li key={id} className='quiz__form--question'>
-                <p>{quiz}</p>
-                {
-                  options.map(({ idOption, value, isCorrect }, index) => (
-                    <div key={index} className='quiz__form--options'>
-                      <input
-                        type='radio'
-                        id={`option-${idOption}`}
-                        name={`quiz-${id}`}
-                        value={isCorrect}
-                        onChange={() => handleChange(isCorrect, id)}
-                      />
-                      <label htmlFor={`option-${idOption}`}>{value}</label>
-                    </div>
-                  ))
-                }
-              </li>
-            )
-          })
+          unsortedQuestions.map(({ question: { id, quiz, options } }) => (
+            <Question
+              key={id}
+              id={id}
+              quiz={quiz}
+              options={options}
+              handleChange={handleChange}
+            />
+          ))
         }
       </ol>
       <div className='quiz__form--action'>
@@ -65,4 +52,4 @@ export const FormQuestions = () => {
       </div>
     </form>
   )
-} 
+}
