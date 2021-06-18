@@ -6,6 +6,7 @@ import { Layout } from '../../components/Layout'
 import { Title } from '../../components/Title'
 import { FormQuestions } from '../../components/FormQuestions'
 import { Results } from '../../components/Results'
+import { PointSpreadLoading } from 'react-loadingg'
 
 import './index.css'
 
@@ -44,7 +45,7 @@ export default function QuizPage () {
           <section className='quiz__container'>
             {
               loading
-                ? <p>Cargando...</p>
+                ? <PointSpreadLoading color='#EAC024' size='small' />
                 : showAnswers
                   ? <Results
                       questions={questions}

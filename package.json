@@ -24,6 +24,7 @@
     "@svgr/webpack": "^5.5.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.1",
+    "react-loadingg": "^1.7.2",
     "standard": "^16.0.3",
     "style-loader": "^2.0.0",
     "webpack": "^5.32.0",
