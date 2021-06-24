@@ -1,17 +1,28 @@
 .not-found {
   color: white;
-  font-size: 25px;
-  line-height: 2;
+  font-size: 18px;
+  line-height: 1.5;
   position: relative;
   text-align: center;
 }
 
 .not-found__container {
-  left: 50%;
+  left: 0;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found {
+    font-size: 25px;
+    line-height: 2;
+  }
+  .not-found__container {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (min-width: 1024px) {

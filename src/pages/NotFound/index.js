@@ -8,7 +8,7 @@ export const NotFound = () => (
     <Hero />
     <div className='wrapper'>
       <div className='not-found__container'>
-        <p>Opa! No pudimos encontrar lo que estas buscando.<br /> Intentá con otra url o volvé al inicio haciendo click en el logo 😎.</p>
+        <p>Opa! No pudimos encontrar lo que estás buscando.<br /> Intentá con otra url o volvé al inicio haciendo click en el logo 😎.</p>
       </div>
     </div>
   </section>
