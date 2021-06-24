@@ -1,18 +1,11 @@
 import React from 'react'
 
-// import { Title } from '../Title'
-import carImage from '../../../public/img/car-image-hero.jpg'
-import carImageMobile from '../../../public/img/car-image-hero-mobile.jpg'
+import { Hero } from '../Hero'
 import './index.css'
 
 export const AboutUs = () => (
   <section className='about-us' id='about-us'>
-    <figure className='about-us__image'>
-      <picture>
-        <source srcSet={carImageMobile} media='(max-width: 801px)' />
-        <img src={carImage} />
-      </picture>
-    </figure>
+    <Hero />
     <div className='wrapper'>
       <div className='about-us__info'>
         <h1 className='about-us__slogan'>Hacemos la diferencia en futuros conductores</h1>
