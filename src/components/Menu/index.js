@@ -1,34 +1,41 @@
 import React from 'react'
 import { Link as InternalLink } from 'react-scroll'
-import { Link as ExternalLink } from 'wouter'
+import { Link as ExternalLink, useLocation } from 'wouter'
 
 import { db } from '../../utils/db'
 import './index.css'
 
-export const Menu = ({ handleShowMenu = null }) => (
-  <nav className='menu'>
-    <ul className='menu__list'>
+export const Menu = ({ handleShowMenu = null }) => {
+  const [location, setLocation] = useLocation()
+  return (
+    <nav className='menu'>
       {
-        db.menu.map((item, index) => (
-          <li key={index} className='menu__item'>
+        location === '/' && (
+          <ul className='menu__list'>
             {
-              item.externalLink
-                ? <ExternalLink onClick={() => handleShowMenu && handleShowMenu(false)} className='menu__action' to={item.path}>{item.name}</ExternalLink>
-                : <InternalLink
-                    to={item.path}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className='menu__action'
-                    onClick={() => handleShowMenu && handleShowMenu(false)}
-                  >
-                  {item.name}
-              </InternalLink>
+              db.menu.map((item, index) => (
+                <li key={index} className='menu__item'>
+                  {
+                    item.externalLink
+                      ? <ExternalLink onClick={() => handleShowMenu && handleShowMenu(false)} className='menu__action' to={item.path}>{item.name}</ExternalLink>
+                      : <InternalLink
+                          to={item.path}
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                          className='menu__action'
+                          onClick={() => handleShowMenu && handleShowMenu(false)}
+                        >
+                        {item.name}
+                      </InternalLink>
+                  }
+                </li>
+              ))
             }
-          </li>
-        ))
+          </ul>
+        )
       }
-    </ul>
-  </nav>
-)
+    </nav>
+  )
+}

@@ -1,0 +1,21 @@
+.not-found {
+  color: white;
+  font-size: 25px;
+  line-height: 2;
+  position: relative;
+  text-align: center;
+}
+
+.not-found__container {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .not-found .hero__image {
+    min-height: 650px;
+  }
+}

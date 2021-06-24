@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 
-import { Route, Router } from 'wouter'
+import { Route, Router, Switch } from 'wouter'
 
 import './index.css'
 import { Header } from './components/Header'
 import Home from './pages/Home'
 import QuizPage from './pages/QuizPage'
+import { NotFound } from './pages/NotFound'
 import { Footer } from './components/Footer'
 import { WhatsappButton } from './components/WhatsappButton'
 
@@ -35,14 +36,19 @@ const useHashLocation = () => {
 export const App = () => (
   <Router hook={useHashLocation}>
     <Header />
-    <Route
-      component={Home}
-      path='/'
-    />
-    <Route
-      component={QuizPage}
-      path='/quiz'
-    />
+    <Switch>
+      <Route
+        component={Home}
+        path='/'
+      />
+      <Route
+        component={QuizPage}
+        path='/quiz'
+      />
+      <Route
+        component={NotFound}
+      />
+    </Switch>
     <Footer />
     <WhatsappButton />
   </Router>

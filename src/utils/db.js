@@ -4,8 +4,8 @@ export const db = {
   menu: [
     {
       name: 'Inicio',
-      path: '/',
-      externalLink: true
+      path: 'about-us',
+      externalLink: false
     },
     {
       name: 'Nosotros',
