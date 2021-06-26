@@ -26,7 +26,7 @@ export const WhoWeAre = () => {
     <section className='who-we-are' id='who-we-are'>
       <div className='wrapper'>
         <Title>¿Por qué elegirnos?</Title>
-        <p>Tenemos la mejor flota para poder dar el exámen con comodidad y seguridad.</p>
+        <p>Tenemos la mejor flota para poder dar el exámen con comodidad y seguridad, respetando los protocolos de seguridad correspondientes. </p>
         <Carousel breakpoints={breakpoint}>
           <picture>
             <source srcSet={slideOneMobile} media='(max-width: 801px)' />

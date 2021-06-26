@@ -9,7 +9,7 @@ export const AboutUs = () => (
     <div className='wrapper'>
       <div className='about-us__info'>
         <h1 className='about-us__slogan'>Hacemos la diferencia en futuros conductores</h1>
-        <p className='about-us__brief'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A est culpa molestiae? Perferendis accusantium molestias reiciendis, nobis incidunt porro nihil.</p>
+        <p className='about-us__brief'>Libra nace del amor por manejar y la vocación por enseñar</p>
       </div>
     </div>
   </section>

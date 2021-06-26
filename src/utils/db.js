@@ -19,7 +19,7 @@ export const db = {
     },
     {
       name: 'Simulacro de exámen',
-      path: '/quiz',
+      path: '/preguntas',
       externalLink: true
     },
     {
