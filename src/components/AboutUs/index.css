@@ -8,8 +8,8 @@
   left: 50%;
   position: absolute;
   text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  transform: translate(-50%, -25%);
   width: 95%;
   z-index: 2;
 }

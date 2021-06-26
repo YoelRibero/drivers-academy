@@ -43,7 +43,7 @@ export const App = () => (
       />
       <Route
         component={QuizPage}
-        path='/quiz'
+        path='/preguntas'
       />
       <Route
         component={NotFound}
