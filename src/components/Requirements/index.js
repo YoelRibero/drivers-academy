@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Title } from '../Title'
+import { AditionalInformation } from '../AditionalInformation'
 import './index.css'
 
 export const Requirements = () => (
@@ -14,6 +15,7 @@ export const Requirements = () => (
           <li className='requirements-item'>Pago de primera clase</li>
           <li className='requirements-item'>Si posee libreta de moto, fotocopia de la misma para la extracción del teórico</li>
         </ul>
+        <AditionalInformation />
       </nav>
     </div>
   </section>

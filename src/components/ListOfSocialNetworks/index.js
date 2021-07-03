@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { db } from '../../utils/db'
-import IconFb from '../../../public/img/icons/facebook.svg'
+import WppIcon from '../../../public/img/icons/whatsapp.svg'
 import IconIt from '../../../public/img/icons/instagram.svg'
 import './index.css'
 
@@ -12,8 +12,8 @@ export const ListOfSocialNetworks = () => (
         <li className='social__item' key={index}>
           <a href={social.path} target='_blank' rel='noreferrer'>
             {
-              social.icon === 'iconFb'
-                ? <IconFb />
+              social.icon === 'iconWp'
+                ? <WppIcon />
                 : <IconIt />
             }
           </a>

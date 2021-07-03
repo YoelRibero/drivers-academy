@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { db } from '../../utils/db'
 
@@ -16,6 +16,10 @@ export default function QuizPage () {
   const [showAnswers, setShowAnsweres] = useState(false)
   const [results, setResults] = useState({})
   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const handleSubmit = (e) => {
     e.preventDefault()
