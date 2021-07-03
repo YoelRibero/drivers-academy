@@ -73,9 +73,9 @@ export const db = {
   ],
   socialNetworks: [
     {
-      name: 'Social Network Facebook',
-      icon: 'iconFb',
-      path: 'https://facebook.com'
+      name: 'Whatsapp',
+      icon: 'iconWp',
+      path: 'https://wa.me/+59894208159?text=Hola%20me%20interesa%20saber%20sobre%20tu%20academia%20de%20choferes%20'
     },
     {
       name: 'Social Network Instagram',

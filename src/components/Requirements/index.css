@@ -25,4 +25,9 @@
   .requirements-item {
     margin-bottom: 1rem;
   }
+  .requirements-nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+  }
 }
