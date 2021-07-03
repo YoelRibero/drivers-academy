@@ -1,0 +1,20 @@
+.aditional-information {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.aditional-information svg {
+  height: 50px;
+  width: 50px;
+}
+
+.adition-information__item {
+  text-align: center;
+}
+
+.adition-information__item p {
+  font-size: 14px;
+  font-weight: 600;
+}
