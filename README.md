@@ -1,6 +1,6 @@
 # 🚧 Drivers Academy App
 
-## 🎉 What do it doing?
+## 🎉 What does it doing?
 
 This is a Libra drivers academy app. First is a landing home page, where shoe the most important features, you'll find some sections like why choose us, our courses, requirements for the begin class, papers for help you to studied for the theory exam and the medical institutions you can visit, also you'll find contact information in the footer page.
 
