@@ -36,38 +36,41 @@ export const db = {
   promotions: [
     {
       title: 'Curso básico',
-      price: '$17500',
-      subtitle: 'Ideal para personas sin ningún tipo de conocimiento de manejo',
-      description: [
-        '25 clases prácticas',
-        'Una clase de mecánica ligera',
-        'Presentación del vehiculo al examen práctico sin costo'
-      ]
-    },
-    {
-      title: 'Curso Perfeccionamiento',
-      price: '$10500',
-      subtitle: 'Para personas que tienen algún conocimiento de manejo',
+      price: '$8990',
+      subtitle: 'Cantidad de clases mínimas que exige la Intendencia de Montevideo',
       description: [
         '15 clases prácticas',
         'Una clase de mecánica ligera',
-        'Presentación del vehiculo al examen práctico sin costo'
-      ]
-    },
-    {
-      title: 'Curso práctico',
-      price: '$3500',
-      subtitle: 'Pensado para personas con libreta que necesitan practicar',
-      description: [
-        '5 clases prácticas'
+        'Simulacro de exámen gratis',
+        'Incluye: trámite de habilitación y reserva de fechas en Intendencia de Montevideo'
       ]
     },
     {
       title: 'Clase libre',
-      price: '$700',
+      price: '$699',
       subtitle: 'Se abona clase a clase',
       description: [
-        'La utilización del vehículo en el exámen tendrá un costo adicional de $1200'
+        'Se puede utilizar para la extensión de cualquiera de nuestros planes'
+      ]
+    },
+    {
+      title: 'Curso Perfeccionamiento Práctico',
+      price: '$3490',
+      subtitle: 'Pensado para personas con libreta que necesitan practicar',
+      description: [
+        '6 clases prácticas'
+      ]
+    },
+    {
+      title: 'Curso Premium',
+      price: '$11990',
+      subtitle: 'Ideal para personas sin ningún tipo de conocimiento de manejo',
+      description: [
+        '20 clases prácticas',
+        'Una clase de manejo en ruta',
+        'Clase de manejo defensivo',
+        'Charla de seguridad vial',
+        'Trámite de habilitación y reserva de fechas en Intendencia de Montevideo'
       ]
     }
   ],
