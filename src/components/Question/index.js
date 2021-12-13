@@ -13,7 +13,7 @@ export const Question = ({ id, quiz, options, handleChange }) => (
             id={`option-${idOption}`}
             name={`quiz-${id}`}
             value={isCorrect}
-            onChange={() => handleChange(isCorrect, id)}
+            onChange={() => handleChange(isCorrect, id, quiz, options)}
           />
           <label htmlFor={`option-${idOption}`}>{value}</label>
         </div>

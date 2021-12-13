@@ -15,19 +15,23 @@ export const FormQuestions = ({ questions, handleSubmit, answereQuestions, setAn
     }))
   }, [])
 
-  const handleChange = (isCorrect, id) => {
+  const handleChange = (isCorrect, id, quiz, options) => {
     const isQuestion = answereQuestions.some(element => element.idQuestion === id)
 
     if (!isQuestion) {
       setAnswereQuestions(oldQuestion => [...oldQuestion, {
         idQuestion: id,
-        isCorrect
+        isCorrect,
+        quiz,
+        options
       }])
     } else {
       const currentQuestion = answereQuestions.filter(element => element.idQuestion !== id)
       setAnswereQuestions([...currentQuestion, {
         idQuestion: id,
-        isCorrect
+        isCorrect,
+        quiz,
+        options
       }])
     }
   }

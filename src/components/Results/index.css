@@ -10,3 +10,8 @@
   font-size: 22px;
   font-weight: 600;
 }
+
+.questions__results h3 {
+  margin: 1rem;
+  text-align: left;
+}
