@@ -36,7 +36,7 @@ export const db = {
   promotions: [
     {
       title: 'Curso básico',
-      price: '$8990',
+      price: '$10490',
       subtitle: 'Cantidad de clases mínimas que exige la Intendencia de Montevideo',
       description: [
         '15 clases prácticas',
@@ -58,12 +58,12 @@ export const db = {
       price: '$3490',
       subtitle: 'Pensado para personas con libreta que necesitan practicar',
       description: [
-        '6 clases prácticas'
+        '5 clases prácticas'
       ]
     },
     {
       title: 'Curso Premium',
-      price: '$11990',
+      price: '$13990',
       subtitle: 'Ideal para personas sin ningún tipo de conocimiento de manejo',
       description: [
         '20 clases prácticas',
@@ -575,17 +575,12 @@ export const db = {
         {
           idOption: '1-22',
           value: 'Controlar la velocidad',
-          isCorrect: false
+          isCorrect: true
         },
         {
           idOption: '2-22',
           value: 'No pasarnos de la velocidad permitida',
           isCorrect: false
-        },
-        {
-          idOption: '3-22',
-          value: 'Solo a) es correcta',
-          isCorrect: true
         }
       ]
     },

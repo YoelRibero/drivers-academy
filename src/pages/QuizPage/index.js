@@ -31,8 +31,8 @@ export default function QuizPage () {
     const incorrectQuestions = answereQuestions.filter(correct => !correct.isCorrect)
 
     setResults({
-      trueQuestions: correctQuestions.length,
-      falseQuestions: incorrectQuestions.length
+      trueQuestions: correctQuestions,
+      falseQuestions: incorrectQuestions
     })
 
     setShowAnsweres(true)
