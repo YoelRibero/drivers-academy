@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
-import { db } from '../../utils/db'
+import { db } from 'utils/db'
 
-import { Layout } from '../../components/Layout'
-import { Title } from '../../components/Title'
-import { FormQuestions } from '../../components/FormQuestions'
-import { Results } from '../../components/Results'
+import { Layout } from 'organisms/Layout'
+import { Heading2 } from 'atoms/Headings'
+import { FormQuestions } from 'organisms/FormQuestions'
+import { Results } from 'organisms/Results'
 import { PointSpreadLoading } from 'react-loadingg'
 
 import './index.css'
@@ -45,7 +45,7 @@ export default function QuizPage () {
     >
       <main className='main'>
         <div className='wrapper'>
-          <Title>Simulacro de exámen</Title>
+          <Heading2>Simulacro de exámen</Heading2>
           <section className='quiz__container'>
             {
               loading

@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { Layout } from '../../components/Layout'
-import { AboutUs } from '../../components/AboutUs'
-import { WhoWeAre } from '../../components/WhoWeAre'
-import { ListOfPromotions } from '../../components/ListOfPromotions'
-import { Requirements } from '../../components/Requirements'
+import { Layout } from 'organisms/Layout'
+import { AboutUs } from 'organisms/AboutUs'
+import { WhoWeAre } from 'organisms/WhoWeAre'
+import { ListOfPromotions } from 'organisms/ListOfPromotions'
+import { Requirements } from 'organisms/Requirements'
 
 export default function Home () {
   return (
