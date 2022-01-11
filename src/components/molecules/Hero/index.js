@@ -2,8 +2,8 @@ import React from 'react'
 
 import './index.css'
 
-import carImage from '../../../../public/img/car-image-hero.jpg'
-import carImageMobile from '../../../../public/img/car-image-hero-mobile.jpg'
+import carImage from 'images/car-image-hero.jpg'
+import carImageMobile from 'images/car-image-hero-mobile.jpg'
 
 export const Hero = () => (
   <figure className='hero__image'>

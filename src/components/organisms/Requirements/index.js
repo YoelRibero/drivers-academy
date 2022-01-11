@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Heading2 } from '../../atoms/Headings'
-import { AditionalInformation } from '../../molecules/AditionalInformation'
+import { Heading2 } from 'atoms/Headings'
+import { AditionalInformation } from 'molecules/AditionalInformation'
 import './index.css'
 
 export const Requirements = () => (

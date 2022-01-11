@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { db } from '../../../utils/db'
-import WppIcon from '../../../../public/img/icons/whatsapp.svg'
-import IconIt from '../../../../public/img/icons/instagram.svg'
+import { db } from 'utils/db'
+import WppIcon from 'images/icons/whatsapp.svg'
+import IconIt from 'images/icons/instagram.svg'
 import './index.css'
 
 export const ListOfSocialNetworks = () => (

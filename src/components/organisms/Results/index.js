@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { WrongAnswers } from '../../molecules/WrongAnswers'
-import { Heading3 } from '../../atoms/Headings'
-import { Description } from '../../atoms/Description'
+import { WrongAnswers } from 'molecules/WrongAnswers'
+import { Heading3 } from 'atoms/Headings'
+import { Description } from 'atoms/Description'
 import './index.css'
 
 export const Results = ({ results, questions }) => {

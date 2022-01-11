@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { db } from '../../../utils/db'
-import { Heading2 } from '../../atoms/Headings'
-import { PromotionCard } from '../../molecules/PromotionCard'
+import { db } from 'utils/db'
+import { Heading2 } from 'atoms/Headings'
+import { PromotionCard } from 'molecules/PromotionCard'
 import './index.css'
 
 export const ListOfPromotions = () => (

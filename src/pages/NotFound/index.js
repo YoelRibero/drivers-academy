@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Hero } from '../../components/molecules/Hero'
-import { Description } from '../../components/atoms/Description'
+import { Hero } from 'molecules/Hero'
+import { Description } from 'atoms/Description'
 import './index.css'
 
 export const NotFound = () => (

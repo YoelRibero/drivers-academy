@@ -1,10 +1,10 @@
 import React from 'react'
 
 import './index.css'
-import GuideIcon from '../../../../public/img/icons/guide.svg'
-import InstitutionsIcon from '../../../../public/img/icons/institutions.svg'
-import guideFile from '../../../../public/files/conduction-guide.pdf'
-import institutionsFile from '../../../../public/files/enabled-institutions.pdf'
+import GuideIcon from 'images/icons/guide.svg'
+import InstitutionsIcon from 'images/icons/institutions.svg'
+import guideFile from 'files/conduction-guide.pdf'
+import institutionsFile from 'files/enabled-institutions.pdf'
 
 export const AditionalInformation = () => (
   <section className='aditional-information'>

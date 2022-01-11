@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Hero } from '../../molecules/Hero'
-import { Heading1 } from '../../atoms/Headings'
-import { Description } from '../../atoms/Description'
+import { Hero } from 'molecules/Hero'
+import { Heading1 } from 'atoms/Headings'
+import { Description } from 'atoms/Description'
 import './index.css'
 
 export const AboutUs = () => (

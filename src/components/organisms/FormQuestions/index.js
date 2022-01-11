@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { useUnsortedData } from '../../../hooks/useUnsortedData'
-import { Question } from '../../molecules/Question'
-import { Button } from '../../atoms/Button'
+import { useUnsortedData } from 'hooks/useUnsortedData'
+import { Question } from 'molecules/Question'
+import { Button } from 'atoms/Button'
 import './index.css'
 
 export const FormQuestions = ({ questions, handleSubmit, answereQuestions, setAnswereQuestions }) => {

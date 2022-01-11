@@ -1,10 +1,10 @@
 import React from 'react'
 
 import './index.css'
-import { Logo } from '../../atoms/Logo'
-import { ListOfSocialNetworks } from '../../molecules/ListOfSocialNetworks'
-import { Menu } from '../../molecules/Menu'
-import { Heading3 } from '../../atoms/Headings'
+import { Logo } from 'atoms/Logo'
+import { ListOfSocialNetworks } from 'molecules/ListOfSocialNetworks'
+import { Menu } from 'molecules/Menu'
+import { Heading3 } from 'atoms/Headings'
 
 export const Footer = () => (
   <footer className='footer' id='footer'>

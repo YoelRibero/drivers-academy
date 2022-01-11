@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './index.css'
-import { db } from '../../../utils/db'
-import WppIcon from '../../../../public/img/icons/whatsapp.svg'
+import { db } from 'utils/db'
+import WppIcon from 'images/icons/whatsapp.svg'
 
 export const WhatsappButton = () => (
   <div className='whatsapp__button'>

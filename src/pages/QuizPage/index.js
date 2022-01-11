@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
-import { db } from '../../utils/db'
+import { db } from 'utils/db'
 
-import { Layout } from '../../components/organisms/Layout'
-import { Heading2 } from '../../components/atoms/Headings'
-import { FormQuestions } from '../../components/organisms/FormQuestions'
-import { Results } from '../../components/organisms/Results'
+import { Layout } from 'organisms/Layout'
+import { Heading2 } from 'atoms/Headings'
+import { FormQuestions } from 'organisms/FormQuestions'
+import { Results } from 'organisms/Results'
 import { PointSpreadLoading } from 'react-loadingg'
 
 import './index.css'

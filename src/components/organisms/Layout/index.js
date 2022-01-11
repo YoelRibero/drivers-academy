@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
-import IconPage from '../../../../public/img/logo.ico'
+import IconPage from 'images/logo.ico'
 
 export const Layout = ({ children, title, description }) => (
   <>

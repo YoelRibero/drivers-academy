@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useLocation } from 'wouter'
 
-import { Logo } from '../../atoms/Logo'
-import { Menu } from '../../molecules/Menu'
-import { BurgerButton } from '../../atoms/BurgerButton'
+import { Logo } from 'atoms/Logo'
+import { Menu } from 'molecules/Menu'
+import { BurgerButton } from 'atoms/BurgerButton'
 import './index.css'
 
 export const Header = () => {

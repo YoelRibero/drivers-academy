@@ -1,7 +1,7 @@
 import React from 'react'
 import uuid from 'react-uuid'
 
-import { Heading4 } from '../../atoms/Headings'
+import { Heading4 } from 'atoms/Headings'
 import './index.css'
 
 export const WrongAnswers = ({ answers }) => (

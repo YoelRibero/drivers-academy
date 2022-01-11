@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Description } from '../../atoms/Description'
-import { Input } from '../../atoms/Input'
-import { Label } from '../../atoms/Label'
+import { Description } from 'atoms/Description'
+import { Input } from 'atoms/Input'
+import { Label } from 'atoms/Label'
 import './index.css'
 
 export const Question = ({ id, quiz, options, handleChange }) => (

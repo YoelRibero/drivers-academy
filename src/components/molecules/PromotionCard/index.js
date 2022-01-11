@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Heading3, Heading4 } from '../../atoms/Headings'
-import IconSedan from '../../../../public/img/icons/sedan.svg'
+import { Heading3, Heading4 } from 'atoms/Headings'
+import IconSedan from 'images/icons/sedan.svg'
 import './index.css'
 
 export const PromotionCard = ({ title, subtitle, price, description }) => (

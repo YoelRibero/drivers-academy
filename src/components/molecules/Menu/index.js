@@ -2,7 +2,7 @@ import React from 'react'
 import { Link as InternalLink } from 'react-scroll'
 import { Link as ExternalLink, useLocation } from 'wouter'
 
-import { db } from '../../../utils/db'
+import { db } from 'utils/db'
 import './index.css'
 
 export const Menu = ({ handleShowMenu = null }) => {
