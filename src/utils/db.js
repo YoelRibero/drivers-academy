@@ -36,7 +36,7 @@ export const db = {
   promotions: [
     {
       title: 'Curso básico',
-      price: '$10490',
+      price: '$11990',
       subtitle: 'Cantidad de clases mínimas que exige la Intendencia de Montevideo',
       description: [
         '15 clases prácticas',
@@ -47,7 +47,7 @@ export const db = {
     },
     {
       title: 'Clase libre',
-      price: '$699',
+      price: '$799',
       subtitle: 'Se abona clase a clase',
       description: [
         'Se puede utilizar para la extensión de cualquiera de nuestros planes'
@@ -55,7 +55,7 @@ export const db = {
     },
     {
       title: 'Curso Perfeccionamiento Práctico',
-      price: '$3490',
+      price: '$3990',
       subtitle: 'Pensado para personas con libreta que necesitan practicar',
       description: [
         '5 clases prácticas'
@@ -63,7 +63,7 @@ export const db = {
     },
     {
       title: 'Curso Premium',
-      price: '$13990',
+      price: '$15990',
       subtitle: 'Ideal para personas sin ningún tipo de conocimiento de manejo',
       description: [
         '20 clases prácticas',
